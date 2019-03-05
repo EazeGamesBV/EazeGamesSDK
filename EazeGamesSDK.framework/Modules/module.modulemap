@@ -1,0 +1,11 @@
+framework module EazeGamesSDK {
+  umbrella header "EazeGamesSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module EazeGamesSDK.Swift {
+    header "EazeGamesSDK-Swift.h"
+    requires objc
+}
